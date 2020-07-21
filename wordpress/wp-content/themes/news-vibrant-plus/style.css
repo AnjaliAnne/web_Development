@@ -1,0 +1,134 @@
+/*
+Theme Name:     News Vibrant Plus
+Theme URI:      https://codevibrant.com/wpthemes/news-vibrant-plus
+Author:         CodeVibrant
+Author URI:     https://codevibrant.com
+Description:    News Vibrant Plus is a child theme of News Vibrant modern magazine WordPress theme, with creative design and powerful features that lets you write articles and blog posts with ease. It uses the best clean SEO practices, responsive HTML5, and on top of that, it’s fast, simple, and easy to use.  Use the Customizer to add your own background, page layout, site width and more.
+Version:        1.0.2
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       news-vibrant
+Text Domain:    news-vibrant-plus
+Tags:           news, blog, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-logo, footer-widgets, full-width-template, translation-ready
+*/
+
+#masthead {
+  background: #BB1919;
+}
+
+.nv-header-menu-wrapper {
+  background: #A91717;
+  border: none;
+}
+
+.nv-home-icon a {
+  padding: 0 18px;
+  line-height: 54px;
+  margin-right: 30px;
+}
+
+#site-navigation ul li a {
+  font-size: 14px;
+  margin: 0 30px 0 0;
+  padding: 0;
+  line-height: 54px;
+}
+
+#site-navigation ul li a::before {
+  background: #fff;
+  height: 5px;
+  top: auto;
+  bottom: 0;
+  width: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#site-navigation ul li:hover>a::before,
+#site-navigation ul li.current-menu-item>a::before,
+#site-navigation ul li.current_page_item>a::before,
+#site-navigation ul li.current-menu-ancestor>a::before {
+  height: 5px;
+  background: #fff !important;
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.news-ticker-title>a {
+  font-weight: 700;
+}
+
+#site-navigation ul li a {
+  color: #fff;
+}
+
+#site-navigation ul.sub-menu,
+#site-navigation ul.children {
+  background: #A91717;
+}
+
+.search-main {
+  color: #fff;
+  line-height: 54px;
+  font-size: 15px;
+}
+
+.home .widget .comments-link {
+  display: none;
+}
+
+#colophon {
+  background: #212121;
+}
+
+.search-main a {
+  color: #fff;
+}
+
+.archive .entry-meta span.comments-link a,
+.single .entry-meta span.comments-link a,
+.comments-link a {
+  padding: 6px 10px;
+}
+
+.nv-home-icon a {
+  color: #fff !important;
+}
+
+#commentform label {
+  width: auto;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  #site-navigation ul {
+    background: #292637;
+  }
+
+  .menu-toggle {
+    color: #fff !important;
+  }
+
+  .nv-home-icon a {
+    margin-right: 0;
+  }
+
+  .menu-toggle {
+    line-height: 50px;
+  }
+
+  #secondary {
+    margin-top: 40px;
+  }
+
+  #site-navigation ul li a {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  #site-navigation ul.sub-menu,
+  #site-navigation ul.children {
+    background: #292637;
+  }
+}

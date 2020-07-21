@@ -1,0 +1,9 @@
+body{
+    overflow-x: hidden;
+    background: url("../images/bg/cart.PNG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color:white;
+}
